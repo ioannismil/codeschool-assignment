@@ -6,7 +6,7 @@ Mulesoft based assignment using the anypoint platform.
 
 Create a MuleSoft app that consumes our demo app from CloudHub.
 
-API resources:
+#### API resources
 
 /user
 ```
@@ -16,7 +16,7 @@ Methods:  GET, POST
 ```
 Methods: GET, PUT, DELETE
 ```
-Sample JSON:
+#### Sample JSON
 ```
 {
 "_id": "",
