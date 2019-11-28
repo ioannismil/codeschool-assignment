@@ -1,0 +1,64 @@
+#%RAML 1.0
+version: 1
+title: codeschool workshop
+baseUri: http://code-school-workshop.ir-e1.cloudhub.io/api/ 
+types:
+  userlist:
+    properties:
+      id: integer
+      surname: string
+      name: string
+      project: string
+      team: string
+      email: string
+      
+  Error:
+    properties:
+      code: integer
+      message: string
+  
+
+/user:
+  get:
+    responses:
+      200:
+        description: Successful response
+        body:
+          application/json:
+            properties:
+              userlist:
+                type: userlist
+  post:
+    responses:
+      201:
+        description: Successful response
+        body:
+          application/json:
+            properties:
+              userlist:
+                type: userlist
+  /{id}:
+    get:
+      responses:
+        200:
+          description: Successful response
+          body:
+            application/json:
+              properties:
+                userlist:
+                  type: userlist
+    put:
+      responses:
+        200:
+          description: Successful response
+          body:
+            application/json:
+              properties:
+                userlist:
+                  type: userlist
+    delete:
+
+                    
+
+
+
