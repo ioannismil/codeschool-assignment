@@ -32,3 +32,14 @@ Methods: GET, PUT, DELETE
 ## Deployment
 
 Deployed using the MuleSoft Anypoint platform.
+
+### Links
+```
+http://proj1-wodw.us-e2.cloudhub.io/myget
+http://proj1-wodw.us-e2.cloudhub.io/mypost
+
+Where {id} insert id.
+http://proj1-wodw.us-e2.cloudhub.io/myidget/{id}
+http://proj1-wodw.us-e2.cloudhub.io/myidput/{id}
+http://proj1-wodw.us-e2.cloudhub.io/myiddelete/{id}
+```
